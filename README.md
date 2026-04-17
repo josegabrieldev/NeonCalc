@@ -1,14 +1,14 @@
-# 🌌 NeonCalc
+# 🌌 OnexCalc
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=Smart+Cyber+Calculator;Built+with+HTML%2C+CSS+%26+JavaScript;Fast.+Minimal.+Neon+Style."/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=OnexCalc+-+Smart+Cyber+Calculator;Built+with+HTML%2C+CSS+%26+JavaScript;Fast.+Minimal.+Onex+Style."/>
 </p>
 
 ---
 
 ## ⚡ Sobre o Projeto
 
-**NeonCalc** é uma calculadora moderna com estética **cyberpunk**, desenvolvida com foco em performance, simplicidade e experiência visual.
+**OnexCalc** é uma calculadora moderna com estética **cyberpunk**, desenvolvida com foco em performance, simplicidade e experiência visual.
 
 Este projeto marca a versão **v1.0**, com funcionalidades essenciais e base sólida para futuras evoluções.
 
@@ -22,7 +22,7 @@ Este projeto marca a versão **v1.0**, com funcionalidades essenciais e base só
 * ➗ Divisão
 * √ Raiz quadrada
 * 💡 Interface intuitiva
-* 🌌 Tema visual Neon / Cyberpunk
+* 🌌 Tema visual cyber / neon
 
 ---
 
@@ -46,10 +46,10 @@ Este projeto marca a versão **v1.0**, com funcionalidades essenciais e base só
 
 ```bash
 # Clone o repositório
-git clone https://github.com/josegabrieldev/NeonCalc.git
+git clone https://github.com/josegabrieldev/OnexCalc.git
 
 # Acesse a pasta
-cd NeonCalc
+cd OnexCalc
 
 # Abra o index.html no navegador
 ```
@@ -74,7 +74,7 @@ Desenvolvido por **Gabriel Dev** 🚀
 
 ## ⚙️ Versão
 
-> NeonCalc — v1.0
+> OnexCalc — v1.0
 
 ---
 
