@@ -1,154 +1,118 @@
-<<<<<<< HEAD
-# 🌌 OnexCalc
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=OnexCalc+-+Smart+Cyber+Calculator;Built+with+HTML%2C+CSS+%26+JavaScript;Fast.+Minimal.+Onex+Style."/>
-</p>
-=======
 <div align="center">
 
-  <!-- TÍTULO + SLOGAN SIMPLIFICADO -->
-  <h1>
-    <img src="https://readme-typing-svg.herokuapp.com?size=38&duration=2800&color=00D7FF&center=true&vCenter=true&width=550&lines=OnexCalc;Precisão+em+cada+cálculo." alt="Typing Animation"/>
-  </h1>
->>>>>>> fab1c9a2a3cecb402a73e0e0f7a4843c70d171b9
+<!-- Título animado: mensagens alternam automaticamente -->
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=32&duration=3500&pause=1200&color=00E8FF&center=true&vCenter=true&width=620&lines=OnexCalc;Projeto+em+andamento+%F0%9F%9A%A7;Em+breve+%E2%80%94+nova+interface+cyber;HTML+%E2%80%A2+CSS+%E2%80%A2+JavaScript" alt="OnexCalc — animação de título" />
 
-  <!-- DIVISOR NEON ANIMADO -->
-  <svg width="100%" height="6">
-    <defs>
-      <linearGradient id="glow">
-        <stop offset="0%" stop-color="#00d7ff" />
-        <stop offset="50%" stop-color="#b44bff" />
-        <stop offset="100%" stop-color="#00ff9d" />
-      </linearGradient>
-    </defs>
-  </svg>
+<br/>
 
-</div>
-✨ Sobre o projeto
+<!-- Badges estáticos (shields) — leitura clara do status -->
+<img src="https://img.shields.io/badge/status-em%20desenvolvimento-00E8FF?style=for-the-badge&labelColor=1a0a2e" alt="Status: em desenvolvimento" />
+<img src="https://img.shields.io/badge/licen%C3%A7a-MIT-7C3AED?style=for-the-badge&labelColor=1a0a2e" alt="Licença MIT" />
+<img src="https://img.shields.io/badge/stack-HTML%20%7C%20CSS%20%7C%20JS-00FF9D?style=for-the-badge&labelColor=1a0a2e" alt="Stack" />
 
-<<<<<<< HEAD
-**OnexCalc** é uma calculadora moderna com estética **cyberpunk**, desenvolvida com foco em performance, simplicidade e experiência visual.
-=======
-OnexCalc é uma calculadora projetada para ser elegante, fluida e eficiente.
-Criada para quem valoriza um visual limpo, responsivo e com um toque premium — tudo equilibrado em uma experiência moderna.
->>>>>>> fab1c9a2a3cecb402a73e0e0f7a4843c70d171b9
+<br/><br/>
 
-🟦 Clareza
-🟪 Precisão
-🟩 Tecnologia elegante
-
-E claro:
-
-Pensada para você, criada para resultados.
-
-<<<<<<< HEAD
-* ➕ Soma
-* ➖ Subtração
-* ✖️ Multiplicação
-* ➗ Divisão
-* √ Raiz quadrada
-* 💡 Interface intuitiva
-* 🌌 Tema visual cyber / neon
-=======
-⭐ Funcionalidades
->>>>>>> fab1c9a2a3cecb402a73e0e0f7a4843c70d171b9
-
-✔ Operações matemáticas básicas
-✔ Botão C (limpa tudo)
-✔ Botão ⌫ (apaga último dígito)
-✔ % porcentagem
-✔ √ raiz quadrada
-✔ Interface totalmente responsiva
-✔ Tema híbrido light/dark
-✔ Animações suaves
-✔ Layout otimizado para mobile
-✔ Estética premium neon
-
-🔥 Prévia visual (em breve)
-
-Será adicionada quando a UI estiver pronta.
-
-<div align="center"> <svg width="100%" height="6">
+<!-- Faixa neon animada (SVG + SMIL — suportado na visualização do README no GitHub) -->
+<svg width="85%" height="8" viewBox="0 0 400 8" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divisor neon animado">
   <defs>
-    <linearGradient id="glow">
-      <stop offset="0%" stop-color="#00d7ff" />
-      <stop offset="50%" stop-color="#b44bff" />
-      <stop offset="100%" stop-color="#00ff9d" />
+    <linearGradient id="onexcalcNeonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d7ff"/>
+      <stop offset="45%" stop-color="#b44bff"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
     </linearGradient>
   </defs>
-  <rect width="100%" height="6" fill="url(#glow)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite" />
+  <rect width="400" height="8" rx="4" fill="url(#onexcalcNeonGrad)">
+    <animate attributeName="opacity" values="0.45;1;0.45" dur="3.2s" repeatCount="indefinite"/>
   </rect>
-</svg> </div>
-🧩 Estrutura do Projeto
+</svg>
+
+</div>
+
+<br/>
+
+> **Aviso:** o **OnexCalc** ainda está em construção. A interface e as funcionalidades serão publicadas em etapas — acompanhe o repositório para novidades.
+
+---
+
+## Sobre
+
+**OnexCalc** será uma calculadora web com visual moderno (inspirado em neon / cyber), focada em clareza, responsividade e boa experiência no desktop e no mobile.
+
+Enquanto o desenvolvimento avança, o código pode mudar com frequência — sugestões e *feedback* são bem-vindos nas *issues*.
+
+---
+
+## O que vem por aí
+
+| Área            | Situação        |
+|-----------------|-----------------|
+| Layout & tema   | Em andamento    |
+| Lógica da calc  | Em andamento    |
+| Prévia (GIF)    | Após UI pronta  |
+
+---
+
+## Funcionalidades planejadas
+
+- Operações básicas (`+`, `−`, `×`, `÷`)
+- Limpar tudo (**C**) e apagar último dígito (**⌫**)
+- Porcentagem e raiz quadrada (conforme escopo da v1)
+- Layout responsivo e animações leves
+
+---
+
+## Estrutura do projeto
+
+```text
 onexcalc/
- ├── index.html
- ├── style.css
- ├── script.js
- └── assets/
-       ├── icons/
-       └── images/
-🛠 Tecnologias Utilizadas
-HTML5
-CSS3 (responsividade + glow)
-JavaScript
-SVG animado (para divisores e efeitos especiais)
-🚀 Como Executar
-
-Abra o arquivo:
-
-index.html
-
-Nenhuma instalação adicional é necessária.
-
-🌈 Separador Neon Animado (100% funcional no GitHub)
-👤 Sobre o Autor
-
-<<<<<<< HEAD
-```bash
-# Clone o repositório
-git clone https://github.com/josegabrieldev/OnexCalc.git
-
-# Acesse a pasta
-cd OnexCalc
-
-# Abra o index.html no navegador
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    ├── icons/
+    └── images/
 ```
 
 ---
 
-## 🔮 Futuras versões
+## Tecnologias
 
-* 📊 Histórico de cálculos
-* 🧮 Operações avançadas
-* 🌐 Integração com APIs
-* 💾 Armazenamento de dados
-* 📱 Versão mobile aprimorada
+- **HTML5** — estrutura semântica
+- **CSS3** — layout, tema e efeitos visuais
+- **JavaScript** — lógica da calculadora (vanilla)
 
 ---
 
-## 👨‍💻 Autor
+## Como executar (local)
 
-Desenvolvido por **Gabriel Dev** 🚀
+```bash
+git clone https://github.com/josegabrieldev/OnexCalc.git
+cd OnexCalc
+```
+
+Abra o arquivo **`index.html`** no navegador. Não é necessário instalar dependências nem rodar servidor para a versão estática básica.
+
+<details>
+<summary><strong>Dica</strong> — preview com servidor local (opcional)</summary>
+
+Se no futuro você usar módulos ou caminhos que exijam servidor, pode usar por exemplo: `npx serve .` na pasta do projeto.
+
+</details>
 
 ---
 
-## ⚙️ Versão
+## Licença
 
-> OnexCalc — v1.0
+Este projeto está sob a licença **MIT** — veja o arquivo [`LICENSE`](LICENSE).
 
 ---
 
-<p align="center">
-  💙 Feito com dedicação, código e um toque de neon.
-</p>
-=======
-Criado com dedicação por Dev Gabriel,
-um desenvolvedor apaixonado por interfaces limpas, modernas e tecnológicas.
+<div align="center">
 
-<div align="center"> <img src="https://readme-typing-svg.herokuapp.com?size=20&duration=2500&color=70B7FF&center=true&vCenter=true&width=400&lines=💙+Obrigado+por+visitar+o+OnexCalc!" alt="Thanks animation"/> </div>
-📜 Licença
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2800&color=7CF5FF&center=true&vCenter=true&width=420&lines=Obrigado+por+visitar+o+OnexCalc+%E2%9C%A8;Em+breve%2C+mais+atualiza%C3%A7%C3%B5es..." alt="Mensagem de agradecimento animada" />
 
-Este projeto está sob a licença MIT.
->>>>>>> fab1c9a2a3cecb402a73e0e0f7a4843c70d171b9
+<br/><br/>
+
+**Dev Gabriel** — interfaces limpas, modernas e tecnológicas.
+
+</div>
