@@ -3,19 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OnexCalc é uma calculadora web para operações cotidianas: soma, subtração, multiplicação, divisão, porcentagem e raiz quadrada. Leve, acessível e sem instalação — use direto no navegador.">
     <title>OnexCalc</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="calculadora">
-        <div class="container-calc" id="container-calc">
-            <div class="header-calc" id="header-calc"></div>
-            <div class="display" id="display"></div>
-            <div class="grid-botoes" id="grid-botoes"></div>
-            <div class="footer-calc" id="footer-calc"></div>
-        </div>
+        <article class="container-calc" id="container-calc">
+            <header class="header-calc" id="header-calc">
+                <div class="logo-titulo">
+                    <!-- Logo OnexCalc Em Breve! -->
+                    <h1>OnexCalc</h1>
+                </div>
+
+                <div class="wifi-raio">
+                    <span id="wifi-estado" class="wifi-estado" role="img" aria-label="Conexão com a internet ativa">
+                        <img id="icone-wifi" src="assets/icons/wifi.svg" alt="" width="32" height="32" decoding="async" role="presentation">
+                    </span>
+                    <span id="raio-estado" class="raio-estado raio-estado--online" role="img" aria-label="Indicador do sistema: operação normal">
+                        <img id="icone-raio" src="assets/icons/raio.svg" alt="" width="32" height="32" decoding="async" role="presentation">
+                    </span>
+                </div>
+            </header>
+            <section class="display" id="display">
+                <div class="display-resultado" id="display-resultado">0</div>
+                <div class="display-operacao" id="display-operacao">0</div>
+            </section>
+
+            <section class="grid-botoes" id="grid-botoes">
+                <button type="button" class="botao-limpar-tudo" id="botao-limpar-tudo" aria-label="Reiniciar a calculadora">
+                    <img src="assets/icons/lixeira.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-operadores" id="botao-raiz-quadrada" aria-label="Raiz quadrada">
+                    <img src="assets/icons/raiz-quadrada.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-operadores" id="botao-porcentagem" aria-label="Porcentagem">
+                    <img src="assets/icons/porcentagem.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-operadores" id="botao-divisao" aria-label="Dividir">
+                    <img src="assets/icons/divide.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-padrao" id="botao-7">7</button>
+                <button type="button" class="botao-padrao" id="botao-8">8</button>
+                <button type="button" class="botao-padrao" id="botao-9">9</button>
+                <button type="button" class="botao-operadores" id="botao-multiplicacao" aria-label="Multiplicar">
+                    <img src="assets/icons/x.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-padrao" id="botao-4">4</button>
+                <button type="button" class="botao-padrao" id="botao-5">5</button>
+                <button type="button" class="botao-padrao" id="botao-6">6</button>
+                <button type="button" class="botao-operadores" id="botao-subtracao" aria-label="Subtrair">
+                    <img src="assets/icons/subtracao.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-padrao" id="botao-1">1</button>
+                <button type="button" class="botao-padrao" id="botao-2">2</button>
+                <button type="button" class="botao-padrao" id="botao-3">3</button>
+                <button type="button" class="botao-operadores" id="botao-soma" aria-label="Somar">
+                    <img src="assets/icons/soma.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-padrao" id="botao-0">0</button>
+                <button type="button" class="botao-padrao" id="botao-ponto">.</button>
+                <button type="button" class="botao-padrao" id="botao-apagar-ultimo-digito" aria-label="Apagar último dígito">
+                    <img src="assets/icons/backspace.svg" alt="" role="presentation">
+                </button>
+                <button type="button" class="botao-operadores" id="botao-igual" aria-label="Calcular resultado">
+                    <img src="assets/icons/iguais.svg" alt="" role="presentation">
+                </button>
+            </section>
+            <footer class="footer-calc" id="footer-calc">
+                <div class="status-sistema" role="status" aria-live="polite" aria-atomic="true">
+                    Status do Sistema: <span id="status-sistema" class="status-sistema__valor status-sistema__valor--online">Online</span>
+                </div>
+                <div>Versão: 1.0.0</div>
+            </footer>
+        </article>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="marca container">
+                <div class="footer-marca">
+                <!--Logo OnexCalc em Breve-->
+                <h2>OnexCalc</h2>
+                </div>
+                <p class="marca slogan">Pensada para você, criada para resultados.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Contato e Redes">
+                <ul>
+                    <li> <a href="https://josegabrieldev.github.io/OnexCalc/">Repositório do Projeto</a> </li>
+                    <li> <a href="https://github.com/josegabrieldev">Perfil GitHub</a> </li>
+                    <li> <a href="https://www.linkedin.com/in/josegabrieldev/">LinkedIn</a> </li>
+                    <li> <a href="mailto:josegabriel.webdev@gmail.com?subject=Contato%20via%20OnexCalc&amp;body=Ol%C3%A1%2C%20Jos%C3%A9%20Gabriel.%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.">E-mail</a> </li>
+                    <li> <a href="https://wa.me/5583986040633?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20falar%20com%20voc%C3%AA.">WhatsApp</a> </li>
+                </ul>
+            </nav>
+
+            <p class="footer-legal">
+                <small>© 2026 José Gabriel. OnexCalc — calculadora web.</small>
+            </p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
