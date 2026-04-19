@@ -4,7 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="OnexCalc é uma calculadora web para operações cotidianas: soma, subtração, multiplicação, divisão, porcentagem e raiz quadrada. Leve, acessível e sem instalação — use direto no navegador.">
+    <link rel="canonical" href="https://josegabrieldev.github.io/OnexCalc/">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://josegabrieldev.github.io/OnexCalc/">
+    <meta property="og:site_name" content="OnexCalc">
+    <meta property="og:title" content="OnexCalc">
+    <meta property="og:description" content="OnexCalc é uma calculadora web para operações cotidianas: soma, subtração, multiplicação, divisão, porcentagem e raiz quadrada. Leve, acessível e sem instalação — use direto no navegador.">
+    <meta property="og:image" content="https://josegabrieldev.github.io/OnexCalc/assets/images/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="OnexCalc">
+    <meta name="twitter:description" content="OnexCalc é uma calculadora web para operações cotidianas: soma, subtração, multiplicação, divisão, porcentagem e raiz quadrada. Leve, acessível e sem instalação — use direto no navegador.">
+    <meta name="twitter:image" content="https://josegabrieldev.github.io/OnexCalc/assets/images/og-image.png">
     <title>OnexCalc</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,17 +32,17 @@
                 </div>
 
                 <div class="wifi-raio">
-                    <span id="wifi-estado" class="wifi-estado" role="img" aria-label="Conexão com a internet ativa">
-                        <img id="icone-wifi" src="assets/icons/wifi.svg" alt="" width="32" height="32" decoding="async" role="presentation">
+                    <span id="wifi-estado" class="wifi-estado">
+                        <img id="icone-wifi" src="assets/icons/wifi.svg" alt="Wi-Fi conectado" width="32" height="32" decoding="async">
                     </span>
-                    <span id="raio-estado" class="raio-estado raio-estado--online" role="img" aria-label="Indicador do sistema: operação normal">
-                        <img id="icone-raio" src="assets/icons/raio.svg" alt="" width="32" height="32" decoding="async" role="presentation">
+                    <span id="raio-estado" class="raio-estado raio-estado--online">
+                        <img id="icone-raio" src="assets/icons/raio.svg" alt="Sistema em operação normal" width="32" height="32" decoding="async">
                     </span>
                 </div>
             </header>
             <section class="display" id="display">
-                <div class="display-resultado" id="display-resultado">0</div>
-                <div class="display-operacao" id="display-operacao">0</div>
+                <div class="display-resultado" id="display-resultado"></div>
+                <div class="display-operacao" id="display-operacao"></div>
             </section>
 
             <section class="grid-botoes" id="grid-botoes">
@@ -89,11 +104,11 @@
             </div>
             <nav class="footer-nav" aria-label="Contato e Redes">
                 <ul>
-                    <li> <a href="https://josegabrieldev.github.io/OnexCalc/">Repositório do Projeto</a> </li>
-                    <li> <a href="https://github.com/josegabrieldev">Perfil GitHub</a> </li>
-                    <li> <a href="https://www.linkedin.com/in/josegabrieldev/">LinkedIn</a> </li>
-                    <li> <a href="mailto:josegabriel.webdev@gmail.com?subject=Contato%20via%20OnexCalc&amp;body=Ol%C3%A1%2C%20Jos%C3%A9%20Gabriel.%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA.">E-mail</a> </li>
-                    <li> <a href="https://wa.me/5583986040633?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20falar%20com%20voc%C3%AA.">WhatsApp</a> </li>
+                    <li> <a href="https://josegabrieldev.github.io/OnexCalc/" target="_blank" rel="noopener noreferrer">Repositório do Projeto</a> </li>
+                    <li> <a href="https://github.com/josegabrieldev" target="_blank" rel="noopener noreferrer">Perfil GitHub</a> </li>
+                    <li> <a href="https://www.linkedin.com/in/josegabrieldev/" target="_blank" rel="noopener noreferrer">LinkedIn</a> </li>
+                    <li> <a href="mailto:josegabriel.webdev@gmail.com?subject=Contato%20via%20OnexCalc&amp;body=Ol%C3%A1%2C%20Jos%C3%A9%20Gabriel.%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20conversar%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">E-mail</a> </li>
+                    <li> <a href="https://wa.me/5583986040633?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20OnexCalc%20e%20gostaria%20de%20falar%20com%20voc%C3%AA." target="_blank" rel="noopener noreferrer">WhatsApp</a> </li>
                 </ul>
             </nav>
 
