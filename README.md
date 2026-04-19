@@ -96,8 +96,6 @@ Abra o arquivo **`index.html`** no navegador. Não é necessário instalar depen
 
 Se no futuro você usar módulos ou caminhos que exijam servidor, pode usar por exemplo: `npx serve .` na pasta do projeto.
 
-</details>
-
 ---
 
 ## Licença
