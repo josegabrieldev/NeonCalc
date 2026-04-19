@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" role="img" aria-labelledby="logoOnexTitle">
+    <title id="logoOnexTitle">OnexCalc</title>
+    <defs>
+        <linearGradient id="onexRing" x1="4" y1="8" x2="44" y2="42" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4ade80"/>
+            <stop offset="1" stop-color="#7c3aed"/>
+        </linearGradient>
+    </defs>
+    <circle cx="24" cy="24" r="18.25" fill="none" stroke="url(#onexRing)" stroke-width="2.75" stroke-linecap="round"/>
+    <rect x="14" y="19.25" width="20" height="3.75" rx="1.875" fill="#f1f5f9"/>
+    <rect x="14" y="25" width="20" height="3.75" rx="1.875" fill="#f1f5f9"/>
+</svg>

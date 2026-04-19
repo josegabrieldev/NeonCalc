@@ -160,6 +160,20 @@ header.header-calc {
     border-bottom: 1px solid var(--surface-border);
 }
 
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    min-width: 0;
+}
+
+.logo-marca {
+    width: clamp(2rem, 5.5vw, 2.5rem);
+    height: clamp(2rem, 5.5vw, 2.5rem);
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
 .logo-titulo h1 {
     margin: 0;
     font-size: clamp(1.15rem, 4vw, 1.35rem);
@@ -414,8 +428,21 @@ footer.footer {
     text-align: center;
 }
 
+.footer-marca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    margin-bottom: 0.35rem;
+}
+
+.footer-marca .logo-marca--rodape {
+    width: clamp(2.25rem, 6vw, 2.75rem);
+    height: clamp(2.25rem, 6vw, 2.75rem);
+}
+
 .footer-marca h2 {
-    margin: 0 0 0.35rem;
+    margin: 0;
     font-size: clamp(1.25rem, 4vw, 1.5rem);
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -545,6 +572,10 @@ p.footer-legal small {
 
     .marca.container {
         text-align: left;
+    }
+
+    .footer-marca {
+        justify-content: flex-start;
     }
 
     nav.footer-nav ul {

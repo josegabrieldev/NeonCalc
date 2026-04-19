@@ -93,7 +93,6 @@ cd OnexCalc
 Abra o arquivo **`index.html`** no navegador. Não é necessário instalar dependências nem rodar servidor para a versão estática básica.
 
 <details>
-<summary><strong>Dica</strong> — preview com servidor local (opcional)</summary>
 
 Se no futuro você usar módulos ou caminhos que exijam servidor, pode usar por exemplo: `npx serve .` na pasta do projeto.
 
